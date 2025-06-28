@@ -1,67 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Julia - a curious mind</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico?v=2" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Serif&family=Poiret+One&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="top-container">
-        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-        <h1>Eu sou Júlia,</h1>
-        <h2 class="description">uma programadora</h2>
-        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-        <img class="devil-img" src="images/devil.png" alt="devil-img">
-    </div>
-    <div class="middle-container">
-        <div class="profile">
-          <img class="profile-img" src="images/profile3.jpg" alt="profile-img">
-          <h2>Olá,</h2>
-          <p class="profile-text">É ótimo te ver por aqui. Além do meu nome, quero te dizer sobre o que faço e quem sou. Estudo Cinema e Audiovisual
-            na Universidade Federal de Pernambuco mas, atualmente, tenho me interessado bastante pela área de tecnologia como Desenvolvimento Web e GameDev.
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julia - Fullstack Developer</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico?v=2" type="image/x-icon" />
+    <!-- Importação de fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Serif&family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Barra de navegação -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#topo">Início</a></li>
+        <li><a href="#profile">Sobre</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+    <!-- Seção de header -->
+    <section class="top-container" id="topo">
+      <h1>Eu sou Júlia,</h1>
+      <h2 class="description">uma programadora</h2>
+      <img class="devil-img" src="images/devil.png" alt="devil-img" />
+    </section>
+
+    <!-- Seção de conteúdo principal -->
+    <section class="middle-container" id="profile">
+      <div class="profile">
+        <img class="profile-img" src="images/profile3.jpg" alt="profile-img" />
+        <h2>Olá,</h2>
+        <p class="profile-text">
+          É ótimo te ver por aqui. Além do meu nome, quero te dizer sobre o que
+          faço e quem sou. Sou graduada em Cinema e Audiovisual na Universidade
+          Federal de Pernambuco e, atualmente, estudo Análise e Desenvolvimento
+          de Sistemas enquanto atuo como programadora fullstack.
+        </p>
+      </div>
+
+      <!-- Seção de habilidades -->
+      <div class="skills" id="skills">
+        <h2>Habilidades</h2>
+
+        <div class="skill-row">
+          <img class="img-skill-row" src="images/fire.png" alt="skills-img" />
+          <h3>Edição de vídeos</h3>
+          <p>
+            Comecei a gostar de consumir material audiovisual desde criança,
+            através de telenovelas. Não tinha nem tamanho e estava por ai me
+            apaixonando por universos cotidianos com personanges fictícios. Com
+            o tempo, ultrapassei a fase de espectadora e passei a criar, a
+            montar meus próprios mundos em um ritmo próprio. Atualmente,
+            utilizando como ferramenta o DaVinci Resolve, primariamente.
           </p>
         </div>
-        <hr>
-        <div class="skills">
-          <h2>Habilidades</h2>
-          <div class="skill-row">
-            <img class="img-skill-row" src="images/fire.png" alt="skills-img">
-            <h3>Edição de vídeos</h3>
-            <p>Comecei a gostar de consumir material audiovisual desde criança, através de telenovelas. Não tinha nem tamanho e estava por ai me apaixonando por universos cotidianos com personanges fictícios. Com o tempo, ultrapassei a fase de espectadora e passei a criar, a montar meus próprios mundos em um ritmo próprio. Atualmente, utilizando como ferramenta o DaVinci Resolve, primariamente.</p>
-          </div>
-          <div class="skill-row">
-            <img class="img-skill-row" src="images/skills-img.png" alt="languages-img">
-            <h3>GameDev</h3>
-            <p>Porém, uma nova aventura que topei entrar é aquela voltada ao desenvolvimento de jogos. Depois de tempo suficiente enclausurada, devido ao recente obstáculo enfretado pela humanidade, revivi um desejo não visto desde os emuladores de Nintendo 64 e me encontro imersa em material de Unity, C# e Game Design. Embora, ainda uma <em>newbie</em>, planejo atravessar novos níveis nos próximos meses.</p>
-          </div>
-          <div class="skill-row">
-            <img class="img-skill-row" src="images/language-img.png" alt="gamedev-img">
-            <h3>Línguas</h3>
-            <p>Esse daqui é um interesse fruto da paixão por culturas diferentes (e vontade de viver reprogramando o cérebro). Hoje, depois de diversos puzzles, testes, ensinamentos, sei Inglês, Espanhol e buscando mais sobre Francês.</p>
-          </div>
+
+        <div class="skill-row">
+          <img
+            class="img-skill-row"
+            src="images/skills-img.png"
+            alt="languages-img"
+          />
+          <h3>GameDev</h3>
+          <p>
+            Porém, uma nova aventura que topei entrar é aquela voltada ao
+            desenvolvimento de jogos. Depois de tempo suficiente enclausurada,
+            devido ao recente obstáculo enfretado pela humanidade, revivi um
+            desejo não visto desde os emuladores de Nintendo 64 e me encontro
+            imersa em material de Unity, C# e Game Design. Embora, ainda uma
+            <em>newbie</em>, planejo atravessar novos níveis nos próximos meses.
+          </p>
         </div>
-        <hr>
-        <div class="contact-me">
-          <h2>Entre em contato</h2>
-          <h3>Quer bater um papo? Pode chegar!</h3>
-          <p class="social-media">Aqui estão algumas redes onde vai me encontrar</p>
-          <a class="btn" href="mailto:julia.b.andrade@outlook.com">Envie-me uma mensagem</a>
+
+        <div class="skill-row">
+          <img
+            class="img-skill-row"
+            src="images/language-img.png"
+            alt="gamedev-img"
+          />
+          <h3>Línguas</h3>
+          <p>
+            Esse daqui é um interesse fruto da paixão por culturas diferentes (e
+            vontade de viver reprogramando o cérebro). Hoje, depois de diversos
+            puzzles, testes, ensinamentos, sei Inglês, Espanhol e buscando mais
+            sobre Francês.
+          </p>
         </div>
       </div>
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/in/kyaramero/" style="text-decoration: none">LinkedIn</a>
-        <a class="footer-link" href="https://kyaramero.itch.io" style="text-decoration: none">itch.io</a>
-        <a class="footer-link" href="https://www.behance.net/juliaandradelima" style="text-decoration: none">Behance</a>
-        <p class="footer-credits">© 2022 Julia Bandeira @ kyaramero</p>
-      </div>
-      
-    </div>
-</body>
+
+      <!-- Seção de projetos -->
+      <section id="projects" class="projects-section">
+        <h2>Projetos</h2>
+        <div class="project-card">
+          <h3>
+            <a
+              href="https://github.com/kyaramero/DigTheGrave_Game"
+              target="_blank"
+              >Dig The Grave Game</a
+            >
+          </h3>
+          <p>
+            Jogo de plataforma inspirado em Flappy Bird, desenvolvido na Unity
+            com C#. Você controla um corvo tentando escapar de um cemitério,
+            enfrentando obstáculos e colecionando pontos — ótimo para demonstrar
+            lógica de física 2D e design de jogo básico.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>
+            <a
+              href="https://github.com/kyaramero/password-manager"
+              target="_blank"
+              >Password Manager</a
+            >
+          </h3>
+          <p>
+            Aplicativo full‑stack em TypeScript para gerar, armazenar e
+            categorizar senhas com segurança. Demonstra conhecimento em backend
+            e frontend full‑stack, ideal para gestão de credenciais pessoais.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>
+            <a
+              href="https://github.com/kyaramero/goodreadsscraper"
+              target="_blank"
+              >GoodreadsScraper</a
+            >
+          </h3>
+          <p>
+            Scraper para extrair livros do Goodreads em formato .csv, permitindo
+            ordenação por gênero, autor ou avaliação. Feito em Jupyter Notebook,
+            e com planos de expansão usando Selenium e interface web.
+          </p>
+        </div>
+      </section>
+
+      <!-- Seção de contato -->
+      <section id="contact">
+        <h2>Entre em contato</h2>
+        <form id="form-contact">
+          <input type="text" id="name" placeholder="Seu nome" required />
+          <input type="email" id="email" placeholder="Seu e-mail" required />
+          <textarea id="message" placeholder="Sua mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+          <p id="mensagem-status"></p>
+        </form>
+      </section>
+    </section>
+
+    <!-- Seção de rodapé -->
+    <footer>
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/kyaramero/"
+        style="text-decoration: none"
+        >LinkedIn</a
+      >
+      <a
+        class="footer-link"
+        href="https://kyaramero.itch.io"
+        style="text-decoration: none"
+        >itch.io</a
+      >
+      <a
+        class="footer-link"
+        href="https://www.behance.net/juliaandradelima"
+        style="text-decoration: none"
+        >Behance</a
+      >
+      <p class="footer-credits">© 2025 Julia Bandeira @ kyaramero</p>
+    </footer>
+
+    <!-- Importação de scripts -->
+    <script src="/script.js"></script>
+  </body>
 </html>
